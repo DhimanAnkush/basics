@@ -1,6 +1,5 @@
 var crypto = require('crypto');
 
-
 function calc(op1, op2, operation) {
     if (operation === 'sum' || operation === 'add') {
         return op1 + op2;
